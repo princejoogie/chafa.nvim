@@ -2,6 +2,7 @@ local async = require "plenary.async"
 
 local M = {}
 
+---@diagnostic disable-next-line: unused-local
 M.get_ascii_data_sync = function(buf_path, ascii_width, ascii_height, opts, callback)
 	local command = { "chafa", buf_path, "--size", ascii_width .. "x" .. ascii_height }
 
