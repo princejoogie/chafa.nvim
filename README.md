@@ -31,3 +31,7 @@ require("chafa").setup({
   },
 })
 ```
+
+## User Commands
+
+`chafa.nvim` creates a `ViewImage` user command which you can manually call in svg files to view them
