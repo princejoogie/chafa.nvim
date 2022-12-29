@@ -1,7 +1,6 @@
 local M = {}
 
 M.SUPPORTED_FILE_PATTERNS = {
-	"*.svg",
 	"*.jpeg",
 	"*.jpg",
 	"*.png",
