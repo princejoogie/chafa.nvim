@@ -38,6 +38,8 @@ local on_image_open = function(create_buf)
 
   if create_buf then
     buf_id = vim.api.nvim_create_buf(true, false)
+    local fname = vim.fn.expand("%:t") .. " (Preview)"
+    vim.api.nvim_buf_set_name(buf_id, fname)
     vim.api.nvim_set_current_buf(buf_id)
   end
 
