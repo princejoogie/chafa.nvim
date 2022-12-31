@@ -1,11 +1,11 @@
 ---@diagnostic disable: missing-parameter
 local M = {}
 
-local async = require "plenary.async"
+local async = require("plenary.async")
 
-local config = require "chafa.config"
-local utils = require "chafa.utils"
-local options = require "chafa.options"
+local config = require("chafa.config")
+local utils = require("chafa.utils")
+local options = require("chafa.options")
 
 local global_opts = nil
 
