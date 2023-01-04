@@ -17,10 +17,10 @@ A neovim plugin for viewing images.
 use {
   "princejoogie/chafa.nvim",
   requires = {
-    "nvim-lua/plenary.nvim"
+    "nvim-lua/plenary.nvim",
     "m00qek/baleia.nvim"
   },
-},
+}
 ```
 
 ## Setup
