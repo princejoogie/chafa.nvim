@@ -2,7 +2,7 @@
 
 A neovim plugin for viewing images.
 
-![demo](./assets/demo.gif)
+![demo](https://user-images.githubusercontent.com/47204120/211049752-7790771d-2f72-4c6c-94a0-9c0fefe650db.gif)
 
 > This plugin uses [chafa](https://github.com/hpjansson/chafa) under the hood to convert images to an output that can be printed in a terminal. It then uses [baleia](https://github.com/m00qek/baleia.nvim) to colorize text with ANSI escape sequences
 
@@ -41,5 +41,4 @@ require("chafa").setup({
 
 This plugin creates a `ViewImage` user command which you can manually call in svg files to view them in a separate buffer.
 
-![demo](./assets/view_image_demo.gif)
-
+![view_image_demo](https://user-images.githubusercontent.com/47204120/211049821-1913bd5a-e943-4857-9a71-7cec433925d3.gif)
